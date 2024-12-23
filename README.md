@@ -40,3 +40,27 @@ The ValidationPipe makes use of the powerful class-validator package and its dec
 commands for validation and class transformer
 
 npm i --save class-validator class-transformer
+
+
+Install the npm package:
+
+npm install typeorm --save
+
+You need to install reflect-metadata shim:
+
+npm install reflect-metadata --save
+
+and import it somewhere in the global place of your app (for example in app.ts):
+
+import "reflect-metadata"
+
+You may need to install node typings:
+
+npm install @types/node --save-dev
+
+npm install mysql --save
+
+for PostgreSQL or CockroachDB
+
+npm install pg --save
+
